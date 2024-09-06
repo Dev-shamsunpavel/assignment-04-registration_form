@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Linking Facicon here -->
+    <link rel="icon" href="img/valorant-favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="img/valorant.jpg" alt="Valorant Tournament">
+        </div>
+        <div class="right">
+            <h1>VALORANT TOURNAMENT</h1>
+            <h2>Sign Up</h2>
+            <form>
+                <div class="name-container">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="date" placeholder="Date of Birth">
+                <select>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <div class="terms">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree to the <a href="#">terms of service</a></label>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
